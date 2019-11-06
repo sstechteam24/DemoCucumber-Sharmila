@@ -10,10 +10,10 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class loginSteps {
-	 WebDriver driver = null;
+	public static WebDriver driver = null;
 	
-	@Before
-	 @Given("^open the browser and enter the url$")
+	
+	@Given("^open the browser and enter the url$")
 	public void open_the_browser_and_enter_the_url()  {
 	    
 		
